@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow: /
+
+Sitemap: https://hitty24.github.io/matlhavani-digital-solutions/sitemap.xml
