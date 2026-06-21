@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
@@ -12,6 +11,9 @@
 <title>
 Matlhavani Digital Solutions | Portfolio
 </title>
+
+
+<meta name="description" content="View Matlhavani Digital Solutions portfolio including websites, business setup solutions and digital projects.">
 
 
 <style>
@@ -27,11 +29,12 @@ font-family:Arial,sans-serif;
 }
 
 
+
 body{
 
-background:#0f172a;
+background:#f8fafc;
 
-color:white;
+color:#222;
 
 line-height:1.6;
 
@@ -39,11 +42,46 @@ line-height:1.6;
 
 
 
+/* HEADER */
+
+
 header{
 
-background:#111827;
+background:#0b1f3a;
+
+color:white;
 
 text-align:center;
+
+padding:60px 20px;
+
+}
+
+
+header h1{
+
+font-size:42px;
+
+}
+
+
+header p{
+
+margin-top:15px;
+
+font-size:18px;
+
+}
+
+
+
+
+
+.container{
+
+max-width:1200px;
+
+margin:auto;
 
 padding:50px 20px;
 
@@ -51,62 +89,49 @@ padding:50px 20px;
 
 
 
-header h1{
-
-font-size:40px;
-
-}
 
 
+.section-title{
 
-header p{
+text-align:center;
 
-margin-top:10px;
+margin-bottom:40px;
 
-color:#cbd5e1;
+color:#0b1f3a;
 
 }
 
-
-
-
-.container{
-
-max-width:1100px;
-
-margin:auto;
-
-padding:40px 20px;
-
-}
 
 
 
 .grid{
 
+
 display:grid;
 
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
 
-gap:25px;
+gap:30px;
+
 
 }
-
 
 
 
 
 .card{
 
-background:#1e293b;
+background:white;
 
 border-radius:15px;
 
 overflow:hidden;
 
-box-shadow:0 10px 25px rgba(0,0,0,.3);
+box-shadow:0 8px 25px rgba(0,0,0,0.1);
 
 }
+
+
 
 
 
@@ -114,7 +139,7 @@ box-shadow:0 10px 25px rgba(0,0,0,.3);
 
 width:100%;
 
-height:220px;
+height:230px;
 
 object-fit:cover;
 
@@ -136,31 +161,36 @@ padding:25px;
 
 .content h2{
 
-margin-bottom:10px;
+color:#0b1f3a;
 
-color:#38bdf8;
+margin-bottom:15px;
 
 }
 
 
 
 
+.tags{
+
+margin-top:15px;
+
+}
+
+
 
 .tags span{
 
-
 display:inline-block;
 
-background:#334155;
+background:#e2e8f0;
 
-padding:5px 10px;
+padding:6px 12px;
 
 border-radius:20px;
 
 font-size:13px;
 
-margin:5px 3px;
-
+margin:4px;
 
 }
 
@@ -178,13 +208,24 @@ background:#25D366;
 
 color:white;
 
-padding:12px 20px;
+text-decoration:none;
+
+padding:12px 25px;
 
 border-radius:5px;
 
-text-decoration:none;
-
 font-weight:bold;
+
+}
+
+
+
+
+
+.featured{
+
+
+border:3px solid #0b1f3a;
 
 
 }
@@ -194,15 +235,34 @@ font-weight:bold;
 
 footer{
 
-text-align:center;
 
 background:#111827;
 
+color:white;
+
+text-align:center;
+
 padding:20px;
 
-margin-top:40px;
 
 }
+
+
+
+
+
+@media(max-width:700px){
+
+
+header h1{
+
+font-size:32px;
+
+}
+
+
+}
+
 
 
 
@@ -214,8 +274,8 @@ margin-top:40px;
 
 
 
-<body>
 
+<body>
 
 
 
@@ -231,10 +291,9 @@ Matlhavani Digital Solutions Portfolio
 
 <p>
 
-Examples of websites, digital setups and business solutions we create.
+Real projects, digital solutions and business transformation
 
 </p>
-
 
 
 </header>
@@ -247,13 +306,106 @@ Examples of websites, digital setups and business solutions we create.
 <div class="container">
 
 
+
+<h2 class="section-title">
+
+Our Projects
+
+</h2>
+
+
+
+
+
+
 <div class="grid">
 
 
 
 
 
-<!-- PROJECT 1 -->
+
+
+<!-- SECURITY PROJECT -->
+
+
+<div class="card featured">
+
+
+<img src="images/security-project/security-home.png">
+
+
+<div class="content">
+
+
+<h2>
+
+Matlhavani Pro Security Services
+
+</h2>
+
+
+
+<p>
+
+Complete digital presence setup for a security services company including website development, branding and customer enquiry solutions.
+
+</p>
+
+
+
+
+<div class="tags">
+
+
+<span>
+Website Design
+</span>
+
+
+<span>
+Security Industry
+</span>
+
+
+<span>
+Branding
+</span>
+
+
+<span>
+Digital Presence
+</span>
+
+
+</div>
+
+
+
+
+<a class="button" href="https://wa.me/27782716952">
+
+Build My Website
+
+</a>
+
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- DIGITAL SOLUTIONS -->
 
 
 <div class="card">
@@ -266,31 +418,40 @@ Examples of websites, digital setups and business solutions we create.
 
 
 <h2>
+
 Matlhavani Digital Solutions Website
+
 </h2>
+
 
 
 <p>
 
-A professional business website created to showcase services, packages and generate customer enquiries.
+Professional agency website created to showcase services, packages and business solutions.
 
 </p>
 
 
 
+
 <div class="tags">
 
-<span>
-Website Design
-</span>
 
 <span>
-Business Branding
+Web Development
 </span>
 
+
 <span>
-Digital Presence
+Business Website
 </span>
+
+
+<span>
+Online Presence
+</span>
+
+
 
 </div>
 
@@ -298,17 +459,16 @@ Digital Presence
 
 <a class="button" href="https://wa.me/27782716952">
 
-Request Similar Website
+Start My Project
 
 </a>
 
 
-</div>
-
 
 </div>
 
 
+</div>
 
 
 
@@ -316,7 +476,9 @@ Request Similar Website
 
 
 
-<!-- PROJECT 2 -->
+
+
+<!-- BUSINESS SETUP -->
 
 
 <div class="card">
@@ -330,96 +492,22 @@ Request Similar Website
 
 <h2>
 
-Business Landing Page
+Business Setup Solutions
 
 </h2>
 
 
+
 <p>
 
-A conversion-focused landing page designed to help businesses present their services professionally online.
+Digital solutions designed to help entrepreneurs launch professional businesses with websites, profiles and online tools.
 
 </p>
 
 
 
-<div class="tags">
-
-
-<span>
-Landing Page
-</span>
-
-
-<span>
-SEO Setup
-</span>
-
-
-<span>
-Customer Growth
-</span>
-
-
-
-</div>
-
-
-
-<a class="button" href="https://wa.me/27782716952">
-
-Build My Page
-
-</a>
-
-
-
-</div>
-
-
-</div>
-
-
-
-
-
-
-
-
-
-<!-- PROJECT 3 -->
-
-
-<div class="card">
-
-
-<img src="images/website-project/project3.png">
-
-
-<div class="content">
-
-
-<h2>
-
-Security Business Setup
-
-</h2>
-
-
-<p>
-
-Digital setup solution for security companies including online presence, branding and business support.
-
-</p>
-
-
 
 <div class="tags">
-
-
-<span>
-Security Industry
-</span>
 
 
 <span>
@@ -428,7 +516,12 @@ Business Setup
 
 
 <span>
-Branding
+Digital Growth
+</span>
+
+
+<span>
+Entrepreneurs
 </span>
 
 
@@ -437,9 +530,10 @@ Branding
 
 
 
+
 <a class="button" href="https://wa.me/27782716952">
 
-Start My Business
+Grow My Business
 
 </a>
 
@@ -456,6 +550,7 @@ Start My Business
 
 
 </div>
+
 
 
 </div>
@@ -479,7 +574,7 @@ South Africa
 
 
 
-
 </body>
+
 
 </html>
