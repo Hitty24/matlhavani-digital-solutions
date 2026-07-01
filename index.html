@@ -29,11 +29,14 @@ business registration help
 <meta name="geo.country" content="South Africa">
 
 <style>
-  .menu-icon{
+ 
+ /* MENU */
+
+.menu-icon{
 
 font-size:35px;
+color:white;
 cursor:pointer;
-
 }
 
 
@@ -42,10 +45,11 @@ cursor:pointer;
 display:none;
 position:absolute;
 right:8%;
-top:80px;
+top:90px;
 background:#0b1f3a;
 padding:20px;
 border-radius:10px;
+z-index:999;
 
 }
 
@@ -53,32 +57,19 @@ border-radius:10px;
 #menu a{
 
 display:block;
-padding:12px;
 color:white;
 text-decoration:none;
+padding:12px 20px;
+font-weight:bold;
 
 }
-
 
 
 #menu a:hover{
 
 background:#25D366;
+border-radius:5px;
 
-}
-
-
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial, sans-serif;
-}
-
-
-body{
-color:#222;
-line-height:1.6;
 }
 
 
@@ -359,23 +350,30 @@ font-size:32px;
 
 
 <div class="menu-icon" onclick="toggleMenu()">
+
 ☰
+
 </div>
 
 
-<nav id="menu">
+
+<div id="menu">
+
 
 <a href="#services">
 Services
 </a>
 
+
 <a href="#packages">
 Packages
 </a>
 
+
 <a href="#contact">
 Contact
 </a>
+
 
 <a href="business-registration.html">
 Business Setup
@@ -397,7 +395,7 @@ Hire Me
 </a>
 
 
-</nav>
+</div>
 
 
 </header>
@@ -818,22 +816,24 @@ South Africa
 
 
 <script src="chatbot.js"></script>
-  <script>
+
+
+<script>
 
 function toggleMenu(){
 
-let menu=document.getElementById("menu");
+let menu = document.getElementById("menu");
 
 
-if(menu.style.display==="block"){
+if(menu.style.display === "block"){
 
-menu.style.display="none";
+menu.style.display = "none";
 
 }
 
 else{
 
-menu.style.display="block";
+menu.style.display = "block";
 
 }
 
